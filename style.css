@@ -1,22 +1,33 @@
 body {
-    background-color: black;
+    background-color: #1D4221;
     color: white;
-    font-family: "Nerko One", cursive;
+    font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center ;
-    height: 70px;
+    align-items: center;
+    height: 700px;
     margin: 0;
 }
 
 button {
-    background-color: whitesmoke;
-    color: black;
-    font-family: "Nerko One", cursive;
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
-.passo{
-    display:none;
+.passo {
+    display: none;
 }
 
+.passo.ativo {
+    display:block;
+}
 
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}

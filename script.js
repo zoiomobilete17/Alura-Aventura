@@ -1,12 +1,11 @@
-const avanca = documento.querSelector('.btn-proximo');
+const avanca = document.querySelectorAll('.btn-proximo');
 
-avanca.ForEach(button => {
+avanca.forEach(button => {
     button.addEventListener('click', function(){
-        const atual = document.querSelector('.ativo');
-        const proximoPasso = 'passo-' + this.getAttrribute('data-proximo');
+        const atual = document.querySelector('.ativo');
+        const proximoPasso = 'passo-' + this.getAttribute('data-proximo');
 
-        atual.classlist.remove('ativo');
-        document.getElementById(proximoPasso).classlist.add('ativo')
+        atual.classList.remove('ativo');
+        document.getElementById(proximoPasso).classList.add('ativo');
     })
 })
-
